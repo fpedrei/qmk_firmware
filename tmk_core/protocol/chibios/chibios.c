@@ -76,6 +76,7 @@ void raw_hid_task(void);
 #ifdef CONSOLE_ENABLE
 void console_task(void);
 #endif
+
 #ifdef MIDI_ENABLE
 void midi_ep_task(void);
 #endif
